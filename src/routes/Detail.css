@@ -4,9 +4,8 @@
   padding: 20px;
   border-radius: 5px;
   background-color: white;
-  margin: 0 auto;
-  margin-top: 100px;
-  max-width: 25%;
+  margin: 40px auto;
+  width: 25%;
   font-weight: 300;
 }
 
@@ -23,4 +22,16 @@
 .detail__container span:last-of-type {
   display: block;
   margin-top: 10px;
+}
+
+@media screen and (max-width: 1400px) {
+  .detail__container {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .detail__container {
+    width: 96%;
+  }
 }

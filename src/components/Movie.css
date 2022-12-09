@@ -13,7 +13,6 @@
 .movies .movie a {
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
   text-decoration: none;
   color: inherit;
 }
@@ -45,6 +44,7 @@
   padding: 0;
   margin: 0;
   display: flex;
+  flex-wrap: wrap;
   margin: 5px 0px;
 }
 
@@ -52,4 +52,18 @@
 .movie .movie__year {
   margin-right: 10px;
   font-size: 14px;
+}
+
+@media screen and (max-width: 1000px) {
+  .movies .movie {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .movie img {
+    max-width: 100px;
+  }
+  .movie .movie__title {
+    font-size: 20px;
+  }
 }
