@@ -7,7 +7,6 @@ github.io 배포 사이트 |
 
 ## Using :
 
-- YTS.MX Movie API
 - PropTypes
 - React Router DOM v5
 - Axios
